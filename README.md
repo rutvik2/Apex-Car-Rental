@@ -5,6 +5,8 @@ This is a Java-MySQL based Car Rental database management project. This project 
 - [Tech Stack](#tech-stack)
 - [Features](#features)
 - [Work Flow](#work-flow)
+- [Getting Started](#getting-started)
+- [Scope of Improvement](#scope-of-improvement)
 
 # Tech Stack
 - Java using NetBeans IDE 
@@ -12,7 +14,7 @@ This is a Java-MySQL based Car Rental database management project. This project 
 - Used external libraries such as jcalendar
 
 # Features
-- Used MySql connector jar file using JDBC driver to establish connection between the project abd the database
+- Used MySql connector jar file using JDBC driver to establish connection between the project and the database
 - Implemented a Car-based Loading Frame using Timer class
 - Made a classic Login flow
 - Created a Navbar for the Admin and Employee panels
@@ -61,8 +63,22 @@ Under Vehicles Dropdown -><br>
 
 We have the connection class in the connection package.
 
+# Getting Started
+1. After cloning, import the project in your IDE.
+2. Import the .sql file into MySQL.
+3. Go to the connection class and insert your MySQL username and password in place of mine.
+4. Make sure to import the jcalendar and the driver jar files in your libraries.
+5. You can access the database to find credentials.
+6. Run the project in your IDE. Default admin credentials are Username: admin and Password: admin.
 
-# Process to 
+# Scope of Improvement
+- There are a lot of buf fixes and code formatting to be done.
+- The window size of the app on my laptop is significantly different when run using the IDE and when I run the jar file after a clean & build. This mislead me while configuring the GUI so the interface may look inconsistent in some areas. I will be looking up the solution for this on Stack Overflow.
+- The Navbar Dropdown sometimes doesn't go back up like it is supposed to.
+- The image resolution look deprecated on build which is another concern I need to get around.
+
+
+
 
 
 
