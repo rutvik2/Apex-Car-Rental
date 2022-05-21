@@ -72,7 +72,7 @@ We have the connection class in the connection package.
 6. Run the project in your IDE. Default admin credentials are Username: admin and Password: admin.
 
 # Scope of Improvement
-- There are a lot of buf fixes and code formatting to be done.
+- There are a lot of bug fixes and code formatting to be done.
 - The window size of the app on my laptop is significantly different when run using the IDE and when I run the jar file after a clean & build. This mislead me while configuring the GUI so the interface may look inconsistent in some areas. I will be looking up the solution for this on Stack Overflow.
 - The Navbar Dropdown sometimes doesn't go back up like it is supposed to.
 - The image resolution look deprecated on build which is another concern I need to get around.
